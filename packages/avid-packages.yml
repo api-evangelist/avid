@@ -1,0 +1,31 @@
+generated: '2026-09-26'
+method: probed
+generator: harvest-packages.py
+source: registry metadata endpoints (registry.npmjs.org, pypi.org, rubygems.org, api.nuget.org, packagist.org, crates.io)
+ownership_rule: 'official: true only when the registry metadata (homepage, repository, author, URLs) names the provider''s domain (avid.com, security/avid-domain-security.yml,
+  security/avid-vulnerability-disclosure.yml) or its accepted GitHub org.'
+packages:
+- name: avid
+  registry: pypi
+  url: https://pypi.org/project/avid/
+  language: Python
+  official: true
+  version: 0.0.1
+  published: '2025-09-25'
+  evidence: metadata names avid.com
+- name: avid
+  registry: npm
+  url: https://www.npmjs.com/package/avid
+  language: JavaScript
+  official: false
+  version: 0.0.1
+  published: '2017-10-29'
+  evidence: 'name match only: the metadata names neither the provider''s domain nor its GitHub org'
+- name: avid
+  registry: crates
+  url: https://crates.io/crates/avid
+  language: Rust
+  official: false
+  version: 0.6.1
+  published: '2022-11-13'
+  evidence: 'name match only: the metadata names neither the provider''s domain nor its GitHub org'

@@ -1,23 +1,98 @@
 aid: avid
+
 name: Avid
-description: 'Avid is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+
+image: https://edge.sitecorecloud.io/avidtech-d6a2e9a9/media/avidcom/home/home/og-avid-1200x630.jpg?h=630&iar=0&w=1200
+
+description: Avid provides media creation and management solutions empowering audio, video, and broadcast professionals. Their platform includes
+  MediaCentral, Content Core, and AI‑powered workflow tools used by millions of creators worldwide. Avid’s products support news, film, TV, music,
+  and live events, earning multiple Emmy Awards and serving customers in over 60 countries.
+
 url: https://raw.githubusercontent.com/api-evangelist/avid/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-09-27 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-09-26'
+
 modified: '2026-09-26'
+
 tags:
 - Company
-apis: []
+- Media
+- Software
+- Audio
+- Video
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: ChangeLog
+  url: changelog/avid-changelog.yml
+- type: SecurityTxt
+  url: well-known/avid-status-security.txt
+- type: WellKnown
+  url: well-known/avid-well-known.yml
+- type: Hosts
+  url: hosts/avid-hosts.yml
+- type: Vendors
+  url: vendors/avid-vendors.yml
+- type: Packages
+  url: packages/avid-packages.yml
+- type: TermsOfService
+  url: https://developer.avid.com/terms.html
+- type: Support
+  url: https://www.avid.com/support
+- type: StatusPage
+  url: https://status.avid.com/
+- type: Security
+  url: https://www.avid.com/security/vulnerability-disclosure
+- type: SDKs
+  url: https://my.avid.com/cpp/sdk/apc
+- type: PrivacyPolicy
+  url: https://www.avid.com/legal/privacy-policy-statement
+- type: DeveloperPortal
+  url: https://developer.avid.com/
+- type: ChangeLog
+  url: https://www.avid.com/learning/whats-new
+- type: GettingStarted
+  url: https://www.avid.com/content-core/getting-started
+- type: Documentation
+  url: https://dev.avid.com/
+- type: VulnerabilityDisclosure
+  url: security/avid-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/avid-domain-security.yml
 - type: Website
-  url: https://equityzen.com/company/avid
+  url: https://www.avid.com
+
+apis:
+- name: MediaCentral Service Gateway
+  description: Provides a unified entry point to Avid MediaCentral backend services via REST.
+  humanURL: https://developer.avid.com/connector_api/
+  aid: avid:mediacentral-service-gateway
+
+x-coverage:
+  state: unreadable
+  reason: no-machine-readable-spec
+  detail: Developer portal provides HTML documentation but no OpenAPI/AsyncAPI/GraphQL spec is publicly available.
+  evidence:
+  - url: https://developer.avid.com/connector_api/
+    status: 200
+  checked: 2026-09-26
+x-enrichment:
+  date: '2026-09-27'
+  status: enriched
+  artifacts_added: 11
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local

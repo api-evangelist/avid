@@ -1,0 +1,25 @@
+generated: '2026-09-27'
+method: probed
+source: https://www.avid.com/legal/privacy-policy-statement
+signals:
+  data_subject_request:
+    note: Allows users to request deletion of their personal data.
+    evidence:
+      - source: https://www.avid.com/legal/privacy-policy-statement
+        http_status: 200
+        fetched: "true"
+        quote: "you may submit a data deletion request here . Where applicable law requires your consent for a specific activity (for example, certain cookies, marketing, or profiling), we will request that consent separately and you may refuse or withdraw it at any time."
+  incident_notification:
+    note: Indicates monitoring and notification of security incidents.
+    evidence:
+      - source: https://www.avid.com/legal/privacy-policy-statement
+        http_status: 200
+        fetched: "true"
+        quote: "To detect fraud, misuse, and security incidents; and To comply with legal, regulatory, and contractual obligations."
+  ai_transparency:
+    note: Mentions use of AI-powered tools, implying some transparency.
+    evidence:
+      - source: https://www.avid.com/legal/privacy-policy-statement
+        http_status: 200
+        fetched: "true"
+        quote: "AI-powered and automated tools; and Any other interactions you have with Avid."

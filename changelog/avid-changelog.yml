@@ -1,0 +1,50 @@
+generated: '2026-09-26'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://www.avid.com/learning/whats-new
+sources:
+- https://www.avid.com/learning/whats-new
+- https://www.avid.com/resource-center/whats-new-avid-media-composer-2026-8
+- https://www.avid.com/resource-center/whats-new-in-sibelius
+- https://www.avid.com/resource-center/whats-new-in-pro-tools-20264
+entries:
+- breaking: false
+  highlights:
+  - Available Now, Avid Media Composer 2026.8 is focused on helping editors move faster, collaborate with more flexibility, and scale into the
+    workflows their teams need.
+  - This release brings fully supported and secure collaboration across shared storage solutions with Media Composer Enterprise, accelerates multicam
+    editorial with PhraseFindAI Multicam Auto Cut, improves transcript control, and adds practical workflow enhancements that reduce friction
+    across everyday editing.
+  date: '2026-08-31'
+- breaking: false
+  highlights:
+  - We’re pleased to announce the immediate availability of our fourth Sibelius release of 2026!
+  - This update delivers powerful engraving enhancements, expanded customization for line styles, improved cross‑staff notation, and important
+    workflow improvements for macOS users.
+  date: '2026-08-20'
+- breaking: false
+  highlights:
+  - Pro Tools 2026.4 introduces Track Pin—a powerful new way to stay focused in large, complex sessions—alongside support for the MPEG‑H immersive
+    broadcast standard and Dolby Headphone Personalization for more accurate binaural monitoring.
+  - The release also evolves Speech‑to‑Text workflows with more efficient rendering workflows, brings Massive X Player and premium sound content
+    to Pro Tools, and delivers new Inner Circle rewards for active customers.
+  date: '2026-04-28'
+- breaking: false
+  highlights:
+  - We’re pleased to announce the immediate availability of our third Sibelius release of 2026!
+  - This update introduces powerful engraving enhancements, expanded mobile capabilities, and long‑awaited workflow improvements across Sibelius.
+  date: '2026-06-01'
+- breaking: false
+  highlights:
+  - We’re pleased to announce the immediate availability of our second Sibelius release of 2026!
+  - This update delivers powerful new playback and sharing capabilities, refined notation workflows, and meaningful improvements across Sibelius.
+  date: '2026-05-01'
+- breaking: false
+  highlights:
+  - We’re pleased to announce the immediate availability of our first Sibelius release of 2026!
+  - This update delivers a fresh new look, smarter engraving defaults, and meaningful improvements across Sibelius on desktop and mobile.
+  date: '2026-02-01'
+current_version: '2026.8'
+note: Versioning scheme follows a YEAR.MONTH pattern (e.g., 2026.8). Only entries explicitly listed on the provided pages are included, up to
+  the 12 most recent.
+docs: https://www.avid.com/learning/whats-new
